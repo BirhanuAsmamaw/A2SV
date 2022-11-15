@@ -1,0 +1,15 @@
+def gradingStudents(grades):
+    # Write your code here
+    array = []
+    for j in grades:
+        if j < 38:
+            array.append(j)
+        else:
+            g_difference = 5-(j%5)
+            if g_difference >= 0 and g_difference < 3:
+                array.append(j + g_difference)
+            else:
+                array.append(j)
+    return array           
+gradingStudents([73,67,38,33])                
+        
