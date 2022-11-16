@@ -1,0 +1,3 @@
+def domino_pilling(m,n): 
+    return (m*n) // 2
+print(domino_pilling (3,4)) 
