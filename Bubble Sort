@@ -1,0 +1,15 @@
+def bubble_sort(arr):
+    list = len(arr)
+    swaps = 0
+    for i in range(list):
+        for j in range (list-1):
+            if arr[j]<= arr[j+1]:
+                continue
+            else:
+                arr[j],arr[j+1] = arr[j+1],arr[j]
+                swaps += 1        
+    
+    first_element = arr[0]
+    last_element = arr[list-1]
+    return " Array is sorted in " +str(swaps) + " swaps.\nFirst Element: " + str(first_element) + "\nLast Element : " + str(last_element )
+print(bubble_sort([6,4,1]))
