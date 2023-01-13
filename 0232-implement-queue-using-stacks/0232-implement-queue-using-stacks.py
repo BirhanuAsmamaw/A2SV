@@ -12,9 +12,7 @@ class MyQueue:
     def pop(self) -> int:
         if not self.empty():
             first = self.queue[0]
-            for i in range(self.size-1):
-                self.queue[i] = self.queue[i+1]
-            self.queue.pop()
+            self.queue = self.queue[1:]
             self.size -= 1
             return first
             
