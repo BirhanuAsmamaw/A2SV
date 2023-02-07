@@ -1,0 +1,18 @@
+class Solution:
+    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+        l = len(nums)
+        left, right, min_l = 0, 1, l + 1
+        cur_sum = nums[left]
+        while left < l:
+            if cur_sum < target:
+                if right < l:
+                    cur_sum += nums[right]
+                    right += 1
+                else:
+                    break
+            else:
+                if cur_sum >= target:
+                    min_l = min(min_l, right - left)
+                cur_sum -= nums[left]
+                left += 1
+        return min_l if min_l <= l else 0
