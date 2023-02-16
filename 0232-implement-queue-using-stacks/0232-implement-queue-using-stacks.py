@@ -7,14 +7,18 @@ class MyQueue:
 
     def push(self, x: int) -> None:
         self.queue.append(x)
-        self.size += 1
+        self.size += 1 
+      
 
     def pop(self) -> int:
-        if not self.empty():
-            first = self.queue[0]
+        if self.size != 0 :
+            handle = self.queue[0]
             self.queue = self.queue[1:]
             self.size -= 1
-            return first
+            return handle
+        
+            
+            
             
     def peek(self) -> int:
         if not self.empty():
