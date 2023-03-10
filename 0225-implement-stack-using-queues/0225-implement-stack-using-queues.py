@@ -16,8 +16,8 @@ class MyStack:
             return self.stack.pop()   
 
     def top(self) -> int:
-        if not self.empty():
-            return self.stack[self.size - 1]
+        if self.stack:
+            return self.stack[ - 1]
 
     def empty(self) -> bool:
         if self.size == 0:
