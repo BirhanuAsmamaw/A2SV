@@ -5,11 +5,13 @@ class Solution:
         for start,end,direction in shifts:
             if direction == 1:
                 array[start] += 1
+                
                 array[end + 1] -= 1
             else:
                 array[start] -= 1
                 array[end + 1] += 1
         array.pop()
+        
         for i in range(1,len(s)):
             array[i] += array[i-1]
         
