@@ -15,7 +15,10 @@ class Solution:
         for i in range(1,len(s)):
             array[i] += array[i-1]
         
-        ord_s = [ord(i) for i in s] 
+        ord_s = [ ] 
+        for i in s:
+            ord_s.append(ord(i))
+            
         for j in range (len(s)):
             ord_s[j] += array[j]
             
