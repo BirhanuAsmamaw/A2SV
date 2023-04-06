@@ -13,6 +13,5 @@ class Solution:
                     if i != j:
                         return [i, j]
                 except ValueError as e:
-                    # There has no item in list
                     continue
         return []
