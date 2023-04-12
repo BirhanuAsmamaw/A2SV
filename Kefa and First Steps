@@ -1,0 +1,32 @@
+# import sys
+# import heapq
+# input = sys.stdin.readline
+
+# ############ ---- Input Functions ---- ############
+def inp():
+    return(int(input()))
+def inalt():
+    return(list(map(int,input().split())))
+def insr():
+    s = input()
+    return(list(s[:len(s) - 1]))
+def invr():
+    return(map(int,input().split()))
+leng = inp()
+arr = inalt()
+
+def func():
+    start = 0
+    end = 1
+    result = 1
+    
+    while start < end and end < len(arr):
+        if arr[end] >= arr[end - 1]:
+            result = max(result,(end - start) + 1)
+            end += 1
+        else:
+            start = end
+            end += 1
+    return result
+    
+print(func())
