@@ -1,0 +1,30 @@
+# import sys
+# import heapq
+# input = sys.stdin.readline
+
+# ############ ---- Input Functions ---- ############
+def inp():
+    return(int(input()))
+def inalt():
+    return(list(map(int,input().split())))
+def insr():
+    s = input()
+    return(list(s[:len(s) - 1]))
+def invr():
+    return(map(int,input().split()))
+    
+tests = int(input())
+for _ in range(tests):
+    n = int(input())
+    arr = list(map(int,input().split()))
+    sorted_arr = sorted(arr)
+    area = sorted_arr[0] * sorted_arr[-1]
+    for i in range(n):
+        if sorted_arr[2*i] != sorted_arr[2*i+1] or sorted_arr[-2*(i+1)] != sorted_arr[-2*(i+1) + 1]:
+            print("NO")
+            break
+        if sorted_arr[2*i] * sorted_arr[-2*(i+1)] != area:
+            print("NO")
+            break
+    else:
+        print("YES")
