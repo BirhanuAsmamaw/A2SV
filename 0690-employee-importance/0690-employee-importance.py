@@ -21,5 +21,5 @@ class Solution:
                 for j in range(subordinates):
                     dfs(i.subordinates[j])
         dfs(id)
-        return importance   
+        return importance
     
