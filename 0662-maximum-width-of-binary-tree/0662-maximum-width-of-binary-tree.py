@@ -8,7 +8,7 @@ class Solution:
     def widthOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         queue = deque()
         queue.append([root,0])
-        max_width = 1
+        max_width = 0
         
         while queue:
             left_pointer = queue[0][1]
