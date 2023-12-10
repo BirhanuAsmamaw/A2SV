@@ -1,11 +1,17 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        string = str(x)
+        if x < 0:
+            return False
+        arr = []
+        while x != 0:
+            arr.append(x % 10)
+            x = x // 10
+            
         forWard = 0
-        backWard = len(string) - 1
+        backWard = len(arr) - 1
         
         while forWard < backWard:
-            if string[forWard] != string[backWard]:
+            if arr[forWard] != arr[backWard]:
                 return False
             forWard  += 1
             backWard -= 1
