@@ -1,3 +1,5 @@
 class Solution:
     def interpret(self, command: str) -> str:
-        return command.replace('()','o').replace('(al)','al')
+        command = command.replace("()","o")
+        command = command.replace("(al)","al")
+        return command
