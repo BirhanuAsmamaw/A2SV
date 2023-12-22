@@ -1,10 +1,10 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
-        checkClosing = {")" : "(" , "]" : "[" , "}" : "{", }
+        checkClosed = {")" : "(" , "]" : "[" , "}" : "{", }
         for i in s:
-            if i in checkClosing:
-                if stack and stack[-1] == checkClosing[i] : 
+            if i in checkClosed:
+                if stack and stack[-1] == checkClosed[i] : 
                     stack.pop()
                 else :
                     return False
