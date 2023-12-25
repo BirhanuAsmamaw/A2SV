@@ -5,7 +5,7 @@ class Solution:
         start = 0
         end = len(s) - 1
         for i in range(len(s)):
-            if len(s) > 1 :
+            if  len(s) > 1 :
                 if s[start] == s[end]:
                     start += 1
                     end -= 1
