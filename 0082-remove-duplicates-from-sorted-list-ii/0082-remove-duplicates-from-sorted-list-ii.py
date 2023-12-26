@@ -15,8 +15,7 @@ class Solution:
                 temp = current.next.next
                 while temp and temp.next and temp.val == temp.next.val:
                     temp = temp.next
-                current.next = temp.next
-                    
+                current.next = temp.next   
             else:
                 current = current.next
         return final.next
