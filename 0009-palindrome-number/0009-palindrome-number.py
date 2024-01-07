@@ -3,6 +3,7 @@ class Solution:
         if x < 0:
             return False
         arr = []
+        
         while x != 0:
             arr.append(x % 10)
             x = x // 10
