@@ -1,9 +1,9 @@
 class Solution:
     def isAcronym(self, words: List[str], s: str) -> bool:
-        acronym =''
+        stri =''
         for i in words:
-            acronym += i[0]
-        if acronym == s :
+            stri += i[0]
+        if stri == s :
             return True
         else:
             return False  
