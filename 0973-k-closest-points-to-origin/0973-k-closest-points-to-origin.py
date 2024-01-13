@@ -5,7 +5,7 @@ class Solution:
         for x,y in points:
             dist= (x**2)+(y**2)
             minHeap.append([dist,x,y])
-
+            
         heapq.heapify(minHeap)
 
         final=[]
