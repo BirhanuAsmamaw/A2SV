@@ -5,5 +5,5 @@ class Solution:
             if(i==0):
                 arr.append(pref[i])
             else:
-                arr.append(pref[i]^pref[i-1])
+                arr.append(pref[i] ^ pref[i-1])
         return arr
