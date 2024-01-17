@@ -10,7 +10,6 @@ class Solution:
                     return False
             else :
                 stack.append(i)
-                
         return True if not stack else  False
         
         
