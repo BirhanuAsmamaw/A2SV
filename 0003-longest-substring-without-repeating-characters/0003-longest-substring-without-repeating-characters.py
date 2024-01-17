@@ -17,6 +17,7 @@ class Solution:
                 l = l[l.index(s[i])+1:]
                 l.append(s[i])
                 current = len(l)
+                
         if current > tMax:
             return current
         return tMax
