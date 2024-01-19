@@ -13,7 +13,6 @@ class Solution:
                         if min_idx == j + 1:
                             nums[j],nums[j+1] = nums[j+1],nums[j]
                         continue
-                
 
                 if nums[j] < nums[j+1] :
                     nums[j],nums[j+1] = nums[j+1],nums[j]
