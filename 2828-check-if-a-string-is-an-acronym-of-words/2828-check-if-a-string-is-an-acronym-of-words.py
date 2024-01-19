@@ -3,6 +3,7 @@ class Solution:
         stri =''
         for i in words:
             stri += i[0]
+            
         if stri == s :
             return True
         else:
