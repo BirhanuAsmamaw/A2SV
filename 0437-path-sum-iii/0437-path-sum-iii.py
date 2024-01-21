@@ -11,7 +11,7 @@ class Solution:
         def helper(node,current):
             if not node:
                 return
-            
+                
             current += node.val
             helper(node.left , current)
             helper(node.right , current)
