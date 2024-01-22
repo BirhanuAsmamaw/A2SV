@@ -8,9 +8,8 @@ class Solution:
         for i,current in enumerate(s):
             length += 1
             change.add(current)
-
-            
             counter[current] -= 1 
+            
             if counter[current]==0:
                 change.remove(current)
                 if len(change)==0:
