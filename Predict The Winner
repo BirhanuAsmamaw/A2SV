@@ -8,7 +8,6 @@ class Solution:
         
         result = predict(nums, 0 ,len(nums) - 1)
         
-         
         if result >= 0:
             return True
         return False
