@@ -12,7 +12,7 @@ def insr():
     return(list(s[:len(s) - 1]))
 def invr():
     return(map(int,input().split()))
-    
+
 tests = int(input())
 for _ in range(tests):
     n = int(input())
