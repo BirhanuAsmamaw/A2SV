@@ -7,8 +7,6 @@ class Solution:
                 if num[i] < num[j]:
                     num[i], num[j] = num[j], num[i]
                
-        
         num1 = num[0] + num[2]
         num2 = num[1] + num[3]
-        
         return int(num1) + int(num2)
