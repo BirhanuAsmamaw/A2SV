@@ -6,6 +6,3 @@ class Solution:
                 if nums[i] == nums[j] :
                     count += 1
         return count
-
-
-        
