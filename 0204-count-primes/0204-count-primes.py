@@ -3,7 +3,6 @@ class Solution:
         if n==0 or n==1:
             return 0
         prime=[True]*n
-        
         prime[0]=prime[1]=False
         
         count =0
