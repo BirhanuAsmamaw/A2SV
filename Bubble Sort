@@ -8,7 +8,7 @@ def bubble_sort(arr):
             else:
                 arr[j],arr[j+1] = arr[j+1],arr[j]
                 swaps += 1        
-    
+
     first_element = arr[0]
     last_element = arr[list-1]
     return " Array is sorted in " +str(swaps) + " swaps.\nFirst Element: " + str(first_element) + "\nLast Element : " + str(last_element )
