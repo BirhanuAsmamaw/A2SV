@@ -17,8 +17,6 @@ def countingSort(arr):
     for i in arr:
         arr2[i]+=1
     return arr2
-
-
     
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
