@@ -14,5 +14,4 @@ class Solution:
                         return [i, j]
                 except ValueError as e:
                     continue
-                    
         return []
