@@ -10,5 +10,6 @@ class Solution:
                     answer+=s[stack.pop()+1:i]
                 else:
                     stack.pop()
+                    
         return answer
                 
