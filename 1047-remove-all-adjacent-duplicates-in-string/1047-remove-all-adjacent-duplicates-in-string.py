@@ -6,6 +6,5 @@ class Solution:
                 result.pop()
             else:
                 result.append(i)
-                
         return ''.join(result)
         
