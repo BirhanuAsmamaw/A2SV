@@ -8,5 +8,4 @@ class Solution:
             Sum += digit
             multiple *= digit
             n = n//10
-
         return multiple - Sum
