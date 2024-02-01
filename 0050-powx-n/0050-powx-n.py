@@ -5,7 +5,6 @@ class Solution:
                 return 0
             if n== 0:
                 return 1
-            
             result = recurse(x, n//2)
             result = result * result
             return x * result if n % 2 else result
