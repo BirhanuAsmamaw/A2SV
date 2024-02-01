@@ -12,8 +12,6 @@ class Solution:
                 else:
                     return False
                     break
-               
-                
             else:
                 return True               
                 break
