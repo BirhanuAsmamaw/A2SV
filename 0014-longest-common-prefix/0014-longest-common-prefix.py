@@ -4,5 +4,4 @@ class Solution:
         for i in strs[1:]:
             while not i.startswith(prefix):
                 prefix = prefix[:-1]
-                
         return prefix
