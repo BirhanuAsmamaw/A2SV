@@ -1,6 +1,5 @@
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        
         result = []
         for i in nums1:
             count=0
@@ -13,5 +12,6 @@ class Solution:
                             break
                     if count==0:
                         result.append(-1)
+                        
         return (result)
         
