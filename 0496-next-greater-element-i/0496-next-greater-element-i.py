@@ -11,7 +11,6 @@ class Solution:
                             result.append(nums2[k])
                             break
                     if count==0:
-                        result.append(-1)
-                        
+                        result.append(-1)   
         return (result)
         
