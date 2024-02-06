@@ -17,3 +17,21 @@ class Solution:
             forWard  += 1
             backWard -= 1
         return True
+
+# and an other possible answer for the above question
+
+        if x < 0:
+            return False
+        if x == 0:
+            return True
+
+    # Extract the reversed digits
+        reversed_x = 0
+        original_x = x
+        while x > 0:
+            last_digit = x % 10
+            reversed_x = reversed_x * 10 + last_digit
+            x //= 10
+
+    # Check if the original and reversed numbers are the same
+        return original_x == reversed_x
