@@ -18,7 +18,7 @@ class Solution:
             backWard -= 1
         return True
 
-# and an other possible answer for the above question
+# and an other possible answer for this question
 
         if x < 0:
             return False
