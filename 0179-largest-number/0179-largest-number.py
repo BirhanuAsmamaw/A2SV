@@ -16,6 +16,7 @@ class Solution:
 
                 if nums[j] < nums[j+1] :
                     nums[j],nums[j+1] = nums[j+1],nums[j]
+                    
         if nums[0] == "0":
             return "0"        
         final= ''
