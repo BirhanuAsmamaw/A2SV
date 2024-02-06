@@ -33,5 +33,5 @@ class Solution:
             reversed_x = reversed_x * 10 + last_digit
             x //= 10
 
-    # Check if the original and reversed numbers are the same
+    # Check if the original and reversed numbers are the same  so that we will know if it is palindrome or not
         return original_x == reversed_x
