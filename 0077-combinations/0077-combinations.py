@@ -10,7 +10,6 @@ class Solution:
                 combination.append(i)
                 backTracking(i + 1, combination)
                 combination.pop()
-       
         backTracking(1, [])
         return result
             
