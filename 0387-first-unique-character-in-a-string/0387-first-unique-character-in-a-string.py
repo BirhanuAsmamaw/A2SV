@@ -1,6 +1,7 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         dictionary=dict()
+        
         for i in s:
             if i in dictionary:
                 dictionary[i]+=1
@@ -11,3 +12,4 @@ class Solution:
                 return s.index(i)
         return -1
         
+
