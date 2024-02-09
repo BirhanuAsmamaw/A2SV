@@ -4,6 +4,7 @@ class Solution:
         while temp:
             mask = (mask << 1) | 1
             temp >>= 1
+            
         return mask ^ num
             
         
