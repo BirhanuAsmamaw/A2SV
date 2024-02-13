@@ -9,7 +9,6 @@ class Solution:
                 if len(stack)==1:
                     answer+=s[stack.pop()+1:i]
                 else:
-                    stack.pop()
-                    
+                    stack.pop()       
         return answer
                 
