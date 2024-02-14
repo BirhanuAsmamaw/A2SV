@@ -19,6 +19,7 @@ class Solution:
             tail.next = list1
         elif list2:
             tail.next = list2   
+            
         return node.next
 
 
