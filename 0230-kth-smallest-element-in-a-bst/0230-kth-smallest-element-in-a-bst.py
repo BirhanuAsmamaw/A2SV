@@ -15,7 +15,6 @@ class Solution:
                 return
             result.append(node.val)
             smallest(node.right)
-            
         smallest(root)
         return result[-1]
         
