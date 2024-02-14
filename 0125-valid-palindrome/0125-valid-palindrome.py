@@ -15,7 +15,6 @@ class Solution:
             else:
                 return True               
                 break
-               
         return True
             
                 
