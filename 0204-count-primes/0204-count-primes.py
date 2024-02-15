@@ -11,4 +11,5 @@ class Solution:
                 count +=1
                 for j in range(2*i, n , i):
                     prime[j]=False
+                    
         return count 
