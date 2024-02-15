@@ -9,4 +9,5 @@ class Solution:
                 else:
                     ladder.append(result[i-1][j-1] + result[i-1][j]) 
             result.append(ladder)
+            
         return result[-1]
