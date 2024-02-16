@@ -16,4 +16,5 @@ class Solution:
                     result += value
                 else:
                     stack[-1] += value
+                    
         return result
