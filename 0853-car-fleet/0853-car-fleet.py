@@ -9,6 +9,5 @@ class Solution:
             
             if reach_time > car_fleet_time:
                 car_fleet_time = reach_time
-                fleet += 1
-                
+                fleet += 1  
         return fleet
