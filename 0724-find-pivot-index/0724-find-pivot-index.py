@@ -8,6 +8,7 @@ class Solution:
             if left_sum == right_sum:
                 return i
             left_sum += nums[i]
+            
         return -1
            
         
