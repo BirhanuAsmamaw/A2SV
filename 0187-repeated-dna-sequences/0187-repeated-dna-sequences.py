@@ -7,7 +7,6 @@ class Solution:
             current = s[ed : ed + 10]
             if current in seen_hash:
                 result.add(current)
-            seen_hash.add(current)
-            
+            seen_hash.add(current) 
         return list(result)
         
