@@ -3,4 +3,5 @@ class Solution:
         max_wealth = 0
         for i in accounts:
             max_wealth = max(sum(i), max_wealth)
+
         return max_wealth
