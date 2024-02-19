@@ -8,7 +8,6 @@ class Solution:
                 result = max(result, len(stack))
             elif br == ")":
                 stack.pop()    
-
         return result
     
     
