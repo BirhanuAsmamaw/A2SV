@@ -19,5 +19,4 @@ class Solution:
             root.right = self.deleteNode(root.right, key)
         elif root and root.val > key and root.left:
             root.left = self.deleteNode(root.left, key)
-            
         return root
