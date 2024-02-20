@@ -19,6 +19,7 @@ class Solution:
                 subordinates = len(i.subordinates)
                 for j in range(subordinates):
                     dfs(i.subordinates[j])
+
         dfs(id)
         return importance
     
