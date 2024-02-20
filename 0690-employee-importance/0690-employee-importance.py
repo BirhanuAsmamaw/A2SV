@@ -16,7 +16,6 @@ class Solution:
                 if i.id != id:
                     continue
                 importance += i.importance
-
                 subordinates = len(i.subordinates)
                 for j in range(subordinates):
                     dfs(i.subordinates[j])
