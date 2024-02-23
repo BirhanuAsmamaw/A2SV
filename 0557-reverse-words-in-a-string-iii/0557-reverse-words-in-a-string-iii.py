@@ -3,7 +3,6 @@ class Solution:
         s=s.split()        
         for i in range(len(s)):
             s[i]=s[i][::-1]
-        
         s=' '.join(map(str,s))
         return s
         
