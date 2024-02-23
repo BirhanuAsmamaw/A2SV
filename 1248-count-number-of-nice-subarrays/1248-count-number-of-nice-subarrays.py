@@ -15,8 +15,6 @@ class Solution:
                 if nums[left]%2 == 1:
                     odd_cnt -= 1
                 cur_sub_cnt += 1
-                left += 1
-                
-            ans += cur_sub_cnt
-            
+                left += 1   
+            ans += cur_sub_cnt    
         return ans
