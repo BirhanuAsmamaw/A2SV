@@ -4,5 +4,6 @@ class Solution:
         for i,j in enumerate(words):
             if x in j:
                 result.append(i)
+
         return result
         
