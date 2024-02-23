@@ -6,5 +6,4 @@ class Solution:
                 palindromic = i[j] + palindromic 
                 if palindromic == i:
                     return i
-
         return ''
