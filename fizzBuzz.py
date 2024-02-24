@@ -9,9 +9,9 @@ class Solution:
             elif i %3 == 0:
                 output.append("Fizz")
             else:
-                output.append(str(i))
-                
+                output.append(str(i))        
         return output
+
 fb=Solution()
 fb.fizzBuzz(5)
                 
