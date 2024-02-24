@@ -8,5 +8,6 @@ class Solution:
             if current in seen_hash:
                 result.add(current)
             seen_hash.add(current) 
+
         return list(result)
         
