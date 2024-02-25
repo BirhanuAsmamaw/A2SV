@@ -10,3 +10,4 @@ class Solution:
                 result += map[sum - k]
             map[sum] = map.get(sum , 0) + 1
         return result
+        
