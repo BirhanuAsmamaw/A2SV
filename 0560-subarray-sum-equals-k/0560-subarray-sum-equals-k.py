@@ -3,7 +3,6 @@ class Solution:
         map = {0 : 1}
         result = 0
         sum = 0
-
         for i in range(len(nums)):
             sum += nums[i]
             if map.get(sum - k):
