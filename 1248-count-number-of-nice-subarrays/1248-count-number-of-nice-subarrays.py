@@ -6,7 +6,6 @@ class Solution:
         ans = 0
         cur_sub_cnt = 0
         for right in range(len(nums)):
-            
             if nums[right]%2 == 1:
                 odd_cnt += 1
                 cur_sub_cnt = 0
