@@ -5,5 +5,6 @@ class Solution:
         heights.sort(reverse=True)
         for i in heights:
             final.append(hash[i])
+
         return final
         
