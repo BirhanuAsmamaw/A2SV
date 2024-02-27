@@ -14,7 +14,6 @@ class NumMatrix:
                  self.dp[row1][col2 + 1] + self.dp[row1][col1]
         return result
 
-
 # Your NumMatrix object will be instantiated and called as such:
 # obj = NumMatrix(matrix)
 # param_1 = obj.sumRegion(row1,col1,row2,col2)
