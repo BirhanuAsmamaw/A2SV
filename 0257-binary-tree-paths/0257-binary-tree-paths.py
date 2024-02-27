@@ -8,7 +8,6 @@ class Solution:
     def binaryTreePaths(self, root: Optional[TreeNode]) -> List[str]:
         
         ans = []
-        
         def dfs(node,path):
             if not node.right and not node.left:
                 path.append(str(node.val))
