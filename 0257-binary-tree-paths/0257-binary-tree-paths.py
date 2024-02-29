@@ -21,6 +21,7 @@ class Solution:
             if node.right:
                 dfs(node.right,path)
             path.pop()
+            
         dfs(root,[])
         for i in range(len(ans)):
             ans[i] = "->".join(ans[i])
