@@ -9,7 +9,6 @@ class Solution:
                 
                 if (len(set(Sub_String.lower()))) == (len(set(Sub_String))) // 2:
                     Nice_SubString = max(Nice_SubString,Sub_String,key = len)
-                    
         return Nice_SubString
             
            
