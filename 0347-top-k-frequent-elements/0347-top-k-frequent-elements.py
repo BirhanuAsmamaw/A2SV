@@ -7,7 +7,6 @@ class Solution:
             count[n] = 1 + count.get(n,0)
         for n, i in count.items():
             frequency[i].append(n)
-            
         result = []
         for i in range(len(frequency) - 1, 0, -1):
             for n in frequency[i]:
