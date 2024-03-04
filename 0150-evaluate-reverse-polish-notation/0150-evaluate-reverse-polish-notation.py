@@ -15,6 +15,7 @@ class Solution:
                     stack.append(first_pop * second_pop)
                 elif i == "/":
                     stack.append(int(second_pop / first_pop))
+
             else:
                 stack.append(int(i))
         return stack[0]
