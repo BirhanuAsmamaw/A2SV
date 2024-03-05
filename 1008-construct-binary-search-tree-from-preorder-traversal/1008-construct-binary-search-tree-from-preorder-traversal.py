@@ -18,7 +18,7 @@ class Solution:
             elif current > root.val:
                 if root.right == None:
                     root.right  = TreeNode(current)
-                    
+
                 bfs(root.right,current)
     
         for value in preorder[1:]:
