@@ -8,6 +8,7 @@ class Solution:
         for n, i in count.items():
             frequency[i].append(n)
         result = []
+
         for i in range(len(frequency) - 1, 0, -1):
             for n in frequency[i]:
                 result.append(n)
