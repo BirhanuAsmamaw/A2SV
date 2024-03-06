@@ -5,7 +5,6 @@ class Solution:
             if result and result[-1] == i:
                 result.pop()
             else:
-                result.append(i)
-                
+                result.append(i)   
         return ''.join(result)
         
