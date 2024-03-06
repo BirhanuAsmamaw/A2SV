@@ -10,7 +10,6 @@ class Solution:
             while k < counts[0] :
                 counts[nums[left]] -= 1
                 left += 1
-                
             curr_window_size = right - left + 1
             answer = max(answer, curr_window_size)
             
