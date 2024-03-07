@@ -8,4 +8,5 @@ class Solution:
         for i in range(1, n + 1):
             if trusted_by[i] == n - 1:
                 return i
+                
         return -1
