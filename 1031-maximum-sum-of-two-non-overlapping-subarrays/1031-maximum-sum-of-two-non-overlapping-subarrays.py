@@ -8,8 +8,7 @@ class Solution:
             if i>=firstLen-1:
                 first_sum[i] = sum(nums[i-firstLen+1:i+1])
             if i >= secondLen -1:
-                second_sum[i] = sum(nums[i-secondLen+1: i+1])
-                
+                second_sum[i] = sum(nums[i-secondLen+1: i+1]) 
         max_sum = 0
         for i in range(firstLen-1, n):
             for j in range(secondLen-1,n):
