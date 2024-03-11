@@ -8,7 +8,7 @@ class Solution:
                 # Extract the 3x3 submatrix
                 submatrix = [grid[i+k][j:j+3] for k in range(3)]
                 # Find the maximum value in the submatrix
-                max_value = grid[i][j]
+                max_value = grid[i + 1][j + 1]
                 for row in submatrix:
                     for val in row:
                         max_value = max(max_value, val)
