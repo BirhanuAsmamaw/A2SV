@@ -10,5 +10,4 @@ class Solution:
                 output.append("Fizz")
             else:
                 output.append(str(i))
-        
         return output
