@@ -10,6 +10,7 @@ class Solution:
                 result = max(current_sum/k,result)
                 current_sum -= nums[left]
                 left += 1
+
         return result
                 
         
