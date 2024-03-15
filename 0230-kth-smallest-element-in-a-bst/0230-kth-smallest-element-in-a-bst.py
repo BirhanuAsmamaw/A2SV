@@ -12,8 +12,7 @@ class Solution:
             smallest(node.left)
             
             if len(result) == k:
-                return
-                
+                return 
             result.append(node.val)
             smallest(node.right)
         smallest(root)
