@@ -8,4 +8,5 @@ class Solution:
                     count+=1
             arr.append(count)
             count=0
+
         return arr
