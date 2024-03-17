@@ -12,7 +12,6 @@ class Solution:
             length += 1
         for i in range(length // 2):
             head = head.next
-            
         return head
         
             
