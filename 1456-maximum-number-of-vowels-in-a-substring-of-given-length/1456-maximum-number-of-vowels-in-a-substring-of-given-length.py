@@ -12,7 +12,6 @@ class Solution:
             length += 1
             if s[end] in vowels:
                 v_length += 1
-            
             while length > k:
                 length -= 1
                 if s[start] in vowels:
@@ -20,6 +19,5 @@ class Solution:
               start += 1
             ans = max(ans, v_length)    
             end += 1
-        
         return ans
         
