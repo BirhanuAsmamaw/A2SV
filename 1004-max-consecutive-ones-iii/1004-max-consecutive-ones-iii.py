@@ -6,7 +6,6 @@ class Solution:
         
         for right, num in enumerate(nums):
             counts[num] += 1
-            
             while k < counts[0] :
                 counts[nums[left]] -= 1
                 left += 1
