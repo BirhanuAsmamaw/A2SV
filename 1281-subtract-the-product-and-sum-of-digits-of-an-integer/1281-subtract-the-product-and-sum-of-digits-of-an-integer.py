@@ -7,6 +7,5 @@ class Solution:
             digit = n % 10 
             Sum += digit
             multiple *= digit
-            n = n//10
-            
+            n = n//10   
         return multiple - Sum
