@@ -7,6 +7,5 @@ class Solution:
             if count == len(t):
                 return False
             count += 1
-
         return True
         
