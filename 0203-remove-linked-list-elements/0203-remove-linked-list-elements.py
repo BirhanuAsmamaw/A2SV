@@ -19,7 +19,7 @@ class Solution:
             else:
                 prev = current
                 current = current.next
-              
+                
         return head
     
      
