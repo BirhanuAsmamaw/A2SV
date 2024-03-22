@@ -21,4 +21,5 @@ class Solution:
                     queue.append([current.left , 2*index + 1])
                 if current.right:
                     queue.append([current.right , 2*index + 2])
+                    
         return max_width
