@@ -6,5 +6,4 @@ class Solution:
             for j in range(i,n):
                 if i < j and nums[i] + nums[j] < target:
                     answer += 1
-
         return answer
