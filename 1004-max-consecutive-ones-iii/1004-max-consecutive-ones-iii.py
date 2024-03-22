@@ -11,5 +11,4 @@ class Solution:
                 left += 1
             curr_window_size = right - left + 1
             answer = max(answer, curr_window_size)
-            
         return answer
