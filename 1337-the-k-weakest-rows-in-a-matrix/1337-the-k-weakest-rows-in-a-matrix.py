@@ -5,7 +5,7 @@ class Solution:
         weakest_rows = [idx for _, idx in row_strength[:k]]
         return weakest_rows
 
-mat1 = [[1,1,0,0,0],
+mat1 = [[1,1,0,0,1],
         [1,1,1,1,0],
         [1,0,0,0,0],
         [1,1,0,0,0],
