@@ -5,7 +5,6 @@ class Solution:
         
         for i in range(1,len(arr)):
             arr[i] ^= arr[i-1]
-        
         for j in queries:
             if j[0] == 0:
                 final.append(arr[j[1]])
