@@ -14,5 +14,4 @@ class Solution:
             for j in range(secondLen-1,n):
                 if j < i - firstLen+1 or j - secondLen+1 > i:
                     max_sum = max(first_sum[i]+second_sum[j], max_sum)
-
         return max_sum
