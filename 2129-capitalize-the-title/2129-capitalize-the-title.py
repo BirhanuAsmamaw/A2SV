@@ -6,5 +6,6 @@ class Solution:
             if len(title[i]) < 3:
                 result = result + title[i].lower() + " "
             else:
-                result = result + title[i].capitalize() + " "  
+                result = result + title[i].capitalize() + " " 
+ 
         return result[:-1]
