@@ -1,5 +1,6 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
+        
         dicti = defaultdict(int)
         n = len(nums)
         for j in nums:
