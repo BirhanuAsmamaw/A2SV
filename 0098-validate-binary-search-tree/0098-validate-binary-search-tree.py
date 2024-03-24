@@ -11,7 +11,6 @@ class Solution:
                 return True
             if not(node.val > left and node.val < right):
                 return False
-
             return  (validate(node.left,left,node.val) and validate(node.right,node.val,right))  
         return validate(root,-inf,inf)
             
