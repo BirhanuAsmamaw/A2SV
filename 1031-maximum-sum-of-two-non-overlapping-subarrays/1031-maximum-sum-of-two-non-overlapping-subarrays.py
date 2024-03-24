@@ -10,6 +10,7 @@ class Solution:
             if i >= secondLen -1:
                 second_sum[i] = sum(nums[i-secondLen+1: i+1]) 
         max_sum = 0
+        
         for i in range(firstLen-1, n):
             for j in range(secondLen-1,n):
                 if j < i - firstLen+1 or j - secondLen+1 > i:
