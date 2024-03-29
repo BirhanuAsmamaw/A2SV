@@ -7,6 +7,5 @@ class Solution:
             if n < m:
                 s[n], s[m] = s[m], s[n]
                 reverse(n + 1, m - 1)
-
         reverse(0, len(s) - 1)
            
