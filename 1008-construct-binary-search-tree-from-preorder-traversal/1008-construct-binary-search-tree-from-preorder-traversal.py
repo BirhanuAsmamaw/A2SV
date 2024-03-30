@@ -22,6 +22,5 @@ class Solution:
                 bfs(root.right,current)
     
         for value in preorder[1:]:
-            bfs(root,value)
-            
+            bfs(root,value)  
         return root
