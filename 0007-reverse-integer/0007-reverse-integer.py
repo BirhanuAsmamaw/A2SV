@@ -10,5 +10,4 @@ class Solution:
             x //= 10
         if rev > 2**31 - 1 or rev < -2**31:
             return 0
-
         return sign * rev
