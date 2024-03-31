@@ -18,5 +18,6 @@ class Solution:
                 current.next = temp.next   
             else:
                 current = current.next
+                
         return final.next
         
