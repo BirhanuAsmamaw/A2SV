@@ -7,6 +7,7 @@ class Solution:
             dict_s = Counter(s2[i : sn + i])
             if dict_s == dict_p:
                 return True
+                
         return False
         
         
