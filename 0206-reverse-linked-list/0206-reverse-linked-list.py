@@ -12,6 +12,5 @@ class Solution:
             head.next = reverse
             reverse = head
             head = value
-       
         return reverse
         
