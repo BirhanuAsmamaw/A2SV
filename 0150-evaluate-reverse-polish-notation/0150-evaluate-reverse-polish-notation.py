@@ -16,6 +16,7 @@ class Solution:
                     stack.append(int(second_pop / first_pop))
             else:
                 stack.append(int(i))
+
         return stack[0]
         
         
