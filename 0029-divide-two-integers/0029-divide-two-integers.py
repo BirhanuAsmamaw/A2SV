@@ -17,7 +17,6 @@ class Solution:
                 power <<= 1
             dividend -= inc >> 1
             quotient += power >> 1
-
         if not negative:
             return min(MAX_INT, quotient)
         else:
