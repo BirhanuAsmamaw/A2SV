@@ -14,11 +14,11 @@ class Solution:
                             nums[j],nums[j+1] = nums[j+1],nums[j]
                         continue
                 if nums[j] < nums[j+1] :
-                    nums[j],nums[j+1] = nums[j+1],nums[j]        
+                    nums[j],nums[j+1] = nums[j+1],nums[j]  
+                    
         if nums[0] == "0":
             return "0"        
         final= ''
-
         return final.join(nums)          
 
         
