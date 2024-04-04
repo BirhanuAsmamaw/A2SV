@@ -15,7 +15,6 @@ class Solution:
                 return root.right
             else:
                 return root.left
-
         elif root and root.val < key and root.right:
             root.right = self.deleteNode(root.right, key)
         elif root and root.val > key and root.left:
