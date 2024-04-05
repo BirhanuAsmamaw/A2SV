@@ -10,5 +10,4 @@ class Solution:
         while current_node is not None:
             decimal_value = (decimal_value << 1) + current_node.val
             current_node = current_node.next
-
         return decimal_value
