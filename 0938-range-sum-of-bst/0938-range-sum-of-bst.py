@@ -15,7 +15,6 @@ class Solution:
                     dfs(node.left)
                 if node.val < high:
                     dfs(node.right)
-        
         total = 0
         dfs(root)
         return total
