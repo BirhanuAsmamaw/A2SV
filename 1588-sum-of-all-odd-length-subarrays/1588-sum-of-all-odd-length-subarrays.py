@@ -6,5 +6,4 @@ class Solution:
             for j in  range (i+1,n+1):
                 if (j-i) % 2:
                     answer += sum(arr[i:j])  
-                    
         return answer
