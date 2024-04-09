@@ -7,5 +7,6 @@ class Solution:
                 stack_Val, stack_Index = stack.pop()
                 result[stack_Index ] = (i - stack_Index)
             stack.append([val,i])
+            
         return result
         
