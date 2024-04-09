@@ -12,6 +12,5 @@ class Solution:
                             break
                     if count==0:
                         result.append(-1)   
-                        
         return (result)
         
