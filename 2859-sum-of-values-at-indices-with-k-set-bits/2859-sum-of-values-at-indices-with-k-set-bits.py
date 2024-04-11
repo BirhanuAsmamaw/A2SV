@@ -17,5 +17,4 @@ class Solution:
                 index >>= 1
             if count_bits == k:
                 total_sum += num
-
         return total_sum
