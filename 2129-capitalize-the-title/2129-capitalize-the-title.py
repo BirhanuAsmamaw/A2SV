@@ -7,5 +7,4 @@ class Solution:
                 result = result + title[i].lower() + " "
             else:
                 result = result + title[i].capitalize() + " " 
- 
         return result[:-1]
