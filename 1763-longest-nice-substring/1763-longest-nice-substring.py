@@ -2,7 +2,6 @@ class Solution:
     def longestNiceSubstring(self, s: str) -> str:
         Sub_String = ''
         Nice_SubString = ''
-       
         for en in range(len(s)):
             for start in range(en + 1):
                 Sub_String = s[start: en + 1]
