@@ -4,6 +4,5 @@ class Solution(object):
         :type a: int
         :type b: int
         :rtype: int
-        
         """
         return a + b
