@@ -7,7 +7,6 @@ class Solution:
             sum += nums[i]
             if map.get(sum - k):
                 result += map[sum - k]
-            map[sum] = map.get(sum , 0) + 1
-            
+            map[sum] = map.get(sum , 0) + 1     
         return result
         
