@@ -15,5 +15,3 @@ class Solution:
         if p.val > root.val:
             return self.lowestCommonAncestor(root.right , p ,q)
             
-          
-            
