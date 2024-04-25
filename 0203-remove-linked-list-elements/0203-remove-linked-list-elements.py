@@ -7,7 +7,6 @@ class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
         prev = None
         current = head
-        
         while current :
             if current.val == val:
                 if prev: 
@@ -19,7 +18,6 @@ class Solution:
             else:
                 prev = current
                 current = current.next
-                
         return head
     
      
