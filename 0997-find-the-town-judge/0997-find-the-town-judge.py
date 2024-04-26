@@ -6,5 +6,6 @@ class Solution:
             trusted_by[b] += 1  
         for i in range(1, n + 1):
             if trusted_by[i] == n - 1:
-                return i        
+                return i   
+                
         return -1
