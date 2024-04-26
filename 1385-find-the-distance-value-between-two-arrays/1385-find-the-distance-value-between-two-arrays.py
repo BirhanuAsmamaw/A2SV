@@ -9,4 +9,5 @@ class Solution:
                     break
             if valid:
                 count += 1
+                
         return count
