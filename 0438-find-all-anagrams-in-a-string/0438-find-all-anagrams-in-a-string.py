@@ -8,7 +8,6 @@ class Solution:
             dict_s =Counter(s[i : pn + i])
             if dict_s == dict_p:
                 result.append(i)
-                
         return result
         
         
