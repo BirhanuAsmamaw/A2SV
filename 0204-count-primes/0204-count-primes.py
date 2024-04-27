@@ -10,6 +10,5 @@ class Solution:
             if prime[i]:
                 count +=1
                 for j in range(2*i, n , i):
-                    prime[j]=False
-                    
+                    prime[j]=False      
         return count 
