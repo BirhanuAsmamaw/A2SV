@@ -19,7 +19,6 @@ class TreeNode {
     TreeNode right;
     TreeNode(int x) { val = x; }
 }
-
 class Solution {
     public int maxDepth(TreeNode root) {
         return maxDepthHelper(root);
