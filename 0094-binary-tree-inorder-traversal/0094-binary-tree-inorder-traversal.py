@@ -16,5 +16,6 @@ class Solution:
                     stack.append((node.right,False))
                     stack.append((node,True))
                     stack.append((node.left,False))  
+                    
         return result
         
