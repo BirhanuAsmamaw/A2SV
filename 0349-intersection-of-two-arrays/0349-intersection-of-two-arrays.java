@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> uniqueElements = new HashSet<>();
