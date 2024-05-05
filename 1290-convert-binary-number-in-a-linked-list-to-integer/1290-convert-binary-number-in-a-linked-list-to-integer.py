@@ -5,6 +5,7 @@
 #         self.next = next
 class Solution:
     def getDecimalValue(self, head: ListNode) -> int:
+        
         decimal_value = 0
         current_node = head
         while current_node is not None:
