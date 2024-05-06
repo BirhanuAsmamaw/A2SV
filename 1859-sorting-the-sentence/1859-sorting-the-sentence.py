@@ -1,5 +1,6 @@
 class Solution:
     def sortSentence(self, s: str) -> str:
+        
         arr = s.split()
         num=[None]* len(arr)
         for i in range(len(arr)):
