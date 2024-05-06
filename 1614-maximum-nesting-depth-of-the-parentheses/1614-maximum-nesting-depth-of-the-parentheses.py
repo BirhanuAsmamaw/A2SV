@@ -1,5 +1,6 @@
 class Solution:
     def maxDepth(self, s: str) -> int:
+        
         stack  = []
         result = 0
         for br in s:
