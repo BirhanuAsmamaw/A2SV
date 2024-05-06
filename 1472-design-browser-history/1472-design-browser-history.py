@@ -1,4 +1,5 @@
 class BrowserHistory:
+    
     def __init__(self, homepage: str):
         self.history = [homepage]
         self.current_index = 0
