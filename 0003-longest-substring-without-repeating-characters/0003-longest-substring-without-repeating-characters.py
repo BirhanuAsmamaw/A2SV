@@ -6,6 +6,7 @@ class Solution:
         tMax = 1
         current = 0
         l = []
+        
         for i in range(n):
             if s[i] not in l:
                 current = current + 1 
