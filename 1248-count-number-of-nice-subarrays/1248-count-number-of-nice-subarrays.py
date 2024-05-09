@@ -17,3 +17,4 @@ class Solution:
                 left += 1   
             ans += cur_sub_cnt    
         return ans
+
