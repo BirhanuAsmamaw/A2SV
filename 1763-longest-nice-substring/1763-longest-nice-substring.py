@@ -1,5 +1,6 @@
 class Solution:
     def longestNiceSubstring(self, s: str) -> str:
+        
         Sub_String = ''
         Nice_SubString = ''
         for en in range(len(s)):
