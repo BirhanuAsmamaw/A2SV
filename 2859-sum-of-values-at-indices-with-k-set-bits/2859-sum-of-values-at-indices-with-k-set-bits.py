@@ -1,6 +1,5 @@
 class Solution:
     def sumIndicesWithKSetBits(self, nums: List[int], k: int) -> int:
-
         count = 0
         while num:
             count += num & 1
