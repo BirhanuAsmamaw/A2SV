@@ -3,6 +3,7 @@ import java.util.*;
 public class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         List<Integer> resultList = new ArrayList<>();
+        
         for (int i : nums1) {
             int count = 0;
             for (int j : nums2) {
