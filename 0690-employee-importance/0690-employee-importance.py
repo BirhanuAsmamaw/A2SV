@@ -6,7 +6,6 @@ class Employee:
         self.importance = importance
         self.subordinates = subordinates
 """
-
 class Solution:
     def getImportance(self, employees: List['Employee'], id: int) -> int:
         importance = 0
