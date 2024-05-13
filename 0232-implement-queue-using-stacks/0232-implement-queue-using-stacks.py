@@ -1,10 +1,8 @@
 class MyQueue:
-
     def __init__(self):
         self.queue = []
         self.size = 0
         
-
     def push(self, x: int) -> None:
         self.queue.append(x)
         self.size += 1 
