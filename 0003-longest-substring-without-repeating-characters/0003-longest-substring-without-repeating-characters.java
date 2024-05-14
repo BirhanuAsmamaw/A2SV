@@ -5,7 +5,7 @@ class Solution {
         HashSet<Character> mySet = new HashSet<>();
         int left = 0;
         int maxLength = 0;
-
+        
         for (int right = 0; right < s.length(); right++) {
             while (mySet.contains(s.charAt(right))) {
                 mySet.remove(s.charAt(left));
