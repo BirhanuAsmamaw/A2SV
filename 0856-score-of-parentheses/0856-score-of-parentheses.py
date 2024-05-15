@@ -15,6 +15,5 @@ class Solution:
                 if not stack:
                     result += value
                 else:
-                    stack[-1] += value
-                    
+                    stack[-1] += value      
         return result
