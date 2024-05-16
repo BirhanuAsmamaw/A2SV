@@ -7,5 +7,4 @@ class Solution:
                 for k in range (i + 2, n):
                     if nums[j] - nums[i] == diff and nums[k] - nums[j] == diff:
                         count += 1
-        
         return count
