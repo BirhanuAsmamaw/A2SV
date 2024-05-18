@@ -7,7 +7,6 @@ class MyQueue:
         self.queue.append(x)
         self.size += 1 
       
-
     def pop(self) -> int:
         if self.size != 0 :
             handle = self.queue[0]
@@ -19,7 +18,6 @@ class MyQueue:
         if not self.empty():
             return self.queue[0]
         
-
     def empty(self) -> bool:
         if self.size == 0:
             return True
