@@ -5,12 +5,10 @@ class Solution:
         
         for right in range(len(nums)):
             current_sum += nums[right]
-
             if right >= (k-1):
                 result = max(current_sum/k,result)
                 current_sum -= nums[left]
                 left += 1
-
         return result
                 
         
