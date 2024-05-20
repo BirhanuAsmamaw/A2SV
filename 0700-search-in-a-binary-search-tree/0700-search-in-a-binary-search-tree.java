@@ -20,12 +20,10 @@ class Solution {
 if (root == null) {
             return null;
         }
-
         // If current node's value matches, return it (the whole subtree rooted here)
         if (root.val == val) {
             return root;
         }
-
         // Search in appropriate subtree based on comparison
         if (val < root.val) {
             return searchBST(root.left, val); // Search in left subtree
