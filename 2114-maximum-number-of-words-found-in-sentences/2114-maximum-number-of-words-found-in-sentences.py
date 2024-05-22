@@ -5,5 +5,4 @@ class Solution:
             splitted = len(i.split())
             if(splitted > count):
                 count =splitted
-
         return count
