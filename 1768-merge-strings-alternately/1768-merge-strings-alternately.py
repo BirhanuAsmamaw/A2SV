@@ -1,6 +1,5 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        
         merged = ""
         i = 0
         j = 0
