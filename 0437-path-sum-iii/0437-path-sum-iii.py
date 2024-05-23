@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
-        
         self.result = 0
         def helper(node,current):
             if not node:
@@ -17,7 +16,6 @@ class Solution:
             
             if current == targetSum:
                 self.result += 1
-        
         def dfs(node):
             if not node:
                 return
