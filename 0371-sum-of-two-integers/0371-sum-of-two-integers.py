@@ -5,4 +5,5 @@ class Solution(object):
         :type b: int
         :rtype: int
         """
+        
         return a + b
