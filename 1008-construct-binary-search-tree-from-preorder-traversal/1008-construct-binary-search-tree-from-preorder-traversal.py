@@ -9,7 +9,6 @@ class Solution:
         if len(preorder) == 0:
             return None
         root = TreeNode(preorder[0])
-        
         def bfs(root,current):
             if current < root.val:
                 if root.left == None:
