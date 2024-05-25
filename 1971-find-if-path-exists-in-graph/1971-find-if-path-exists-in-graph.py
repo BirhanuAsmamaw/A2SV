@@ -9,13 +9,11 @@ class Solution:
         def dfs(node, target, visited):
             if node == target:
                 return True
-
             visited.add(node)
 
             for neighbor in graph[node]:
                 if neighbor not in visited and dfs(neighbor, target, visited):
                     return True
-
             return False
 
         # Execute DFS to check path existence
