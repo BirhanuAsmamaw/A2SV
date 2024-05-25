@@ -7,6 +7,7 @@ class Solution:
                 if abs(num1 - num2) <= d:
                     valid = False
                     break
+                    
             if valid:
                 count += 1
         return count
