@@ -1,5 +1,6 @@
 class NumMatrix:
     def __init__(self, matrix: List[List[int]]):
+        
         self.dp = [[0]*(len(matrix[0]) + 1) for _ in range(len(matrix) + 1)]
         for row in range(1, len(self.dp)):
             for col in range(1, len(self.dp[0])):
