@@ -8,7 +8,6 @@ class Solution:
         negative = (dividend < 0) != (divisor < 0)
         dividend, divisor = abs(dividend), abs(divisor)
         quotient = 0
-
         while dividend >= divisor:
             power, inc = 1, divisor
             while inc <= dividend:
