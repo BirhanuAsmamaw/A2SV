@@ -2,7 +2,6 @@ class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         MAX_INT = 2**31 - 1 
         MIN_INT = -2**31
-
         if divisor == 0 or (dividend == MIN_INT and divisor == -1):
             return MAX_INT
 
