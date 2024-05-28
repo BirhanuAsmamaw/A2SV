@@ -8,6 +8,7 @@ class Employee:
 """
 class Solution:
     def getImportance(self, employees: List['Employee'], id: int) -> int:
+        
         importance = 0
         def dfs(id):
             nonlocal importance
