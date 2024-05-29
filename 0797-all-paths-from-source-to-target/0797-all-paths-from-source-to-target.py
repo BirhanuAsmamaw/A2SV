@@ -1,5 +1,6 @@
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+        
         queue =[[0]]
         target= len(graph) -1 
         result = []        
