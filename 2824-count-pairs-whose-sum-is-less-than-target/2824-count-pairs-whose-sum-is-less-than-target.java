@@ -2,6 +2,7 @@ import java.util.List;
 
 public class Solution {
     public int countPairs(List<Integer> nums, int target) {
+        
         int n = nums.size();
         int answer = 0;
         for (int i = 0; i < n; i++) {
