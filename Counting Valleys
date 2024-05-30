@@ -2,7 +2,6 @@ def countingValleys(steps, path):
     # Write your code here
     Valley_count = 0
     level = 0
-    
     dict = {'U':1, 'D':-1}
     
     for i in path:
