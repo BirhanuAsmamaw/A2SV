@@ -11,5 +11,4 @@ class Solution:
                 digit_sum += int(digit_char)
         
         difference = abs(element_sum - digit_sum)
-        
         return difference
