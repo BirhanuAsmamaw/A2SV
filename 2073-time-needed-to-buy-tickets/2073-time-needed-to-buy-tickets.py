@@ -1,5 +1,6 @@
 class Solution:
     def timeRequiredToBuy(self, tickets: List[int], k: int) -> int:
+        
         res = 0
         value = tickets[k]
         for ind,tic in enumerate(tickets):
