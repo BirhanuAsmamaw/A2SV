@@ -8,6 +8,7 @@ public class Solution {
                 return num;
             }
         }
+        
         return -1; 
     }
 }
