@@ -9,5 +9,4 @@ class Solution:
                 if strs[row][col] < strs[row - 1][col]:
                     count_unsorted += 1
                     break
-        
         return count_unsorted
