@@ -12,6 +12,7 @@ class Solution {
             if (temp.get(temp.size() - 1) == target) {
                 result.add(new ArrayList<>(temp));
             }
+            
             for (int neighbor : graph[temp.get(temp.size() - 1)]) {
                 List<Integer> newPath = new ArrayList<>(temp);
                 newPath.add(neighbor);
