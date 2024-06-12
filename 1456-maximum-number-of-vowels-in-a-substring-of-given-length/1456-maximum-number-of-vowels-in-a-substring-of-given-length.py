@@ -1,6 +1,5 @@
 class Solution:
     def maxVowels(self, s: str, k: int) -> int:
-        
         start = 0
         end = 0
         n = len(s)
