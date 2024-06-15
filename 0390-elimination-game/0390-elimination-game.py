@@ -11,5 +11,4 @@ class Solution:
             remaining //= 2
             step *= 2
             left = not left
-
         return head
