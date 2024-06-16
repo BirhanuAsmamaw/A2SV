@@ -10,6 +10,5 @@ class Solution:
                 result += s[:k]
             s = s[k:]
             i += 1
-
         return result
         
