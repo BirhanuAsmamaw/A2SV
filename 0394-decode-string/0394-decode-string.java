@@ -2,6 +2,7 @@ import java.util.Stack;
 
 public class Solution {
     public String decodeString(String s) {
+        
         Stack<Integer> countStack = new Stack<>();
         Stack<StringBuilder> stringStack = new Stack<>();
         StringBuilder currentString = new StringBuilder();
