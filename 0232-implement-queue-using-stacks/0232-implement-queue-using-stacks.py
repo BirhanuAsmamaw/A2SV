@@ -13,7 +13,6 @@ class MyQueue:
             self.queue = self.queue[1:]
             self.size -= 1
             return handle
-        
     def peek(self) -> int:
         if not self.empty():
             return self.queue[0]
