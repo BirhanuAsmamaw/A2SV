@@ -14,10 +14,8 @@ class Solution:
             origion, clone = queue.popleft()
             if origion == target:
                 return clone
-
             if origion.left:
                 queue.append((origion.left,clone.left))
-
             if origion.right:
                 queue.append((origion.right,clone.right))
         
