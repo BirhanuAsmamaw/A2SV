@@ -10,5 +10,4 @@ class Solution:
             else:
                 left = right
             right += 1
-
         return max_profit
