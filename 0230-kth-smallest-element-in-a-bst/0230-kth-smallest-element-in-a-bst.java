@@ -42,6 +42,7 @@ class Solution {
                 }
             }
         }
+        
         return -1; // Not found if k is invalid
     }
 }
