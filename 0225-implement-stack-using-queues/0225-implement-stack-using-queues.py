@@ -4,11 +4,9 @@ class MyStack:
         self.stack = []
         self.size = 0
         
-
     def push(self, x: int) -> None:
         self.stack.append(x)
         self.size += 1
-        
 
     def pop(self) -> int:
         if not self.empty():   
