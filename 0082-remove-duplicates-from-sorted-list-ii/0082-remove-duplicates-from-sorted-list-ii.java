@@ -13,7 +13,6 @@ class Solution {
         if (head == null) {
             return null;
         }
-
         ListNode dummy = new ListNode(0, head);
         ListNode prev = dummy;
 
@@ -28,7 +27,6 @@ class Solution {
             }
             head = head.next;
         }
-
         return dummy.next;
     }
 }
