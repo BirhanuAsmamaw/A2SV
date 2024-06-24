@@ -1,6 +1,5 @@
 class Solution:
     def smallerNumbersThanCurrent(self,nums):
-        
         count=0
         arr=[]
         for i in range(len(nums)):
