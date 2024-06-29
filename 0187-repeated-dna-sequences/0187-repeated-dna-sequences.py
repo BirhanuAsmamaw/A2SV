@@ -1,5 +1,6 @@
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
+        
         seen_hash = set()
         result = set()
         
