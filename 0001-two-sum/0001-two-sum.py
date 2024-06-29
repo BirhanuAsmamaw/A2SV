@@ -5,6 +5,7 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
+        
         for i in range(len(nums)):
             another = target - nums[i]
             if another in nums:
@@ -14,4 +15,5 @@ class Solution:
                         return [i, j]
                 except ValueError as e:
                     continue
+                    
         return []
