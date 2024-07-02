@@ -4,7 +4,6 @@ class Solution:
         row_strength.sort()
         weakest_rows = [idx for _, idx in row_strength[:k]]
         return weakest_rows
-
 mat1 = [[1,1,0,0,1],
         [1,1,1,1,0],
         [1,0,0,0,0],
@@ -18,6 +17,5 @@ mat2 = [[1,0,0,0],
         [1,1,1,1],
         [1,0,0,0],
         [1,0,0,0]]
-
 k2 = 2
 print(sol.kWeakestRows(mat2, k2))
