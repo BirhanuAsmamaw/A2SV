@@ -20,7 +20,6 @@ public class Solution {
                 }
             }
         }
-
         // Convert List<Integer> to int[]
         int[] result = new int[resultList.size()];
         for (int i = 0; i < resultList.size(); i++) {
