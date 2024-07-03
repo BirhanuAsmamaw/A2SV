@@ -11,5 +11,4 @@ class Solution:
             for key in rooms[room]:
                 if key not in visited:
                     stack.append(key)
-        
         return len(visited) == n
