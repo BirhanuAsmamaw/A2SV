@@ -4,7 +4,6 @@ class Solution:
         pn = len(s2)
         dict_p = Counter(s1)
 
-        
         for i in range(pn-sn+1):
             dict_s = Counter(s2[i : sn + i])
             if dict_s == dict_p:
