@@ -15,7 +15,6 @@ class BrowserHistory:
         return self.history[self.current_index]
         
 
-
 # Your BrowserHistory object will be instantiated and called as such:
 # obj = BrowserHistory(homepage)
 # obj.visit(url)
