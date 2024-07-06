@@ -21,8 +21,6 @@ class MyStack:
         if self.size == 0:
             return True
         return False
-        
-
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
