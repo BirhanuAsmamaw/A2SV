@@ -10,8 +10,7 @@ class Solution:
             if not node:
                 return True
             if not(node.val > left and node.val < right):
-                return False
-                
+                return False  
             return  (validate(node.left,left,node.val) and validate(node.right,node.val,right))  
         return validate(root,-inf,inf)
             
