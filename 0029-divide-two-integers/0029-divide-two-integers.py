@@ -4,7 +4,6 @@ class Solution:
         MIN_INT = -2**31
         if divisor == 0 or (dividend == MIN_INT and divisor == -1):
             return MAX_INT
-
         negative = (dividend < 0) != (divisor < 0)
         dividend, divisor = abs(dividend), abs(divisor)
         quotient = 0
