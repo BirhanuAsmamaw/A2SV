@@ -5,7 +5,6 @@ class Solution:
         for i in range(0, len(rings), 2):
             color, rod = rings[i], rings[i + 1]
             rods[rod].add(color)
-        
         count = 0
         for rod in rods.values():
             if len(rod) == 3:  
