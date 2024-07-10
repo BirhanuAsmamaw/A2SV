@@ -1,7 +1,6 @@
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
-        result = []
-        
+        result = []  
         def backTracking(start , combination):
             if len(combination) == k:
                 result.append(combination.copy())
