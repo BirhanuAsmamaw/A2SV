@@ -15,6 +15,7 @@
  */
 class Solution {
     public TreeNode increasingBST(TreeNode root) {
+        
         TreeNode node = root;
         Stack<TreeNode> stack = new Stack<>();
         TreeNode pre = null;
