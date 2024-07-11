@@ -4,8 +4,7 @@ class Solution:
         minHeap=[]         # this is a list that is gonna be changed to heap by heapify keyword
         for x,y in points:
             dist= (x**2)+(y**2)
-            minHeap.append([dist,x,y])
-            
+            minHeap.append([dist,x,y])  
         heapq.heapify(minHeap)
         
         final=[]
