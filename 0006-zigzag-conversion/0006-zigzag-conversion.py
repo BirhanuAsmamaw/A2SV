@@ -2,7 +2,6 @@ class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows == 1 or numRows >= len(s):
             return s
-    
         rows = [''] * numRows
         current_row = 0
         going_down = False
