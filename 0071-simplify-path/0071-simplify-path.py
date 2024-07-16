@@ -11,6 +11,5 @@ class Solution:
                 continue
             else:
                 stack.append(i)
-
         return '/' + '/'.join(stack)
         
