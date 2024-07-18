@@ -6,5 +6,4 @@ class Solution:
         for i in range(len(heights)):
             if heights[i] != expected[i]:
                 mismatch_count += 1
-                
         return mismatch_count
