@@ -12,6 +12,7 @@ class Solution:
                 result[p1] += total // 10
                 result[p2] = total % 10
         index = 0
+        
         while index < len(result) and result[index] == 0:
             index += 1
         return ''.join(map(str, result[index:]))
