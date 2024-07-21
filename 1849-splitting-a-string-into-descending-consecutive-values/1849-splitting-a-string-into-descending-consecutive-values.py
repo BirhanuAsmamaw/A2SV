@@ -1,5 +1,6 @@
 class Solution:
     def splitString(self, s: str) -> bool:
+        
         def dfs(idx,left):
             if idx == len(s):
                 return True
