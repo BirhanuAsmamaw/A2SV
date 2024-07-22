@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def increasingBST(self, root: TreeNode) -> TreeNode:
-        
         node = root
         stack = []
         pre = None
