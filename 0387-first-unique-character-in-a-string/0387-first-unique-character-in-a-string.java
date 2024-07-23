@@ -8,7 +8,6 @@ public class Solution {
         for (char c : s.toCharArray()) {
             dictionary.put(c, dictionary.getOrDefault(c, 0) + 1);
         }
-        
         // Find the first unique character
         for (int i = 0; i < s.length(); i++) {
             if (dictionary.get(s.charAt(i)) == 1) {
