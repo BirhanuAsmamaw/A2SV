@@ -1,6 +1,7 @@
 class Solution:
     def decodeString(self, s: str) -> str:
         def helper(i,strng,l):
+		
             if i >= len(s):
                 return ""		
             if s[i]=="]":
