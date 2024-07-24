@@ -4,5 +4,4 @@ class Solution:
             return True
         elif n > 0 and n % 3 ==0 :
             return self.isPowerOfThree(n/3)
-            
         return False
