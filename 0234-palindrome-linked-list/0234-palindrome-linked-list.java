@@ -17,6 +17,7 @@ class Solution {
             result.add(n.val);
             n = n.next;
         }
+
         
         int start = 0;
         int end = result.size() - 1;
