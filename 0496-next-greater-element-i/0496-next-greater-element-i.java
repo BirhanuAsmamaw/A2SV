@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         List<Integer> resultList = new ArrayList<>();
@@ -27,7 +26,6 @@ public class Solution {
         }
         return result;
     }
-
     // Custom implementation of indexOf for arrays
     public static int indexOf(int[] arr, int key) {
         for (int i = 0; i < arr.length; i++) {
