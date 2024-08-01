@@ -1,8 +1,7 @@
 class MyQueue:
     def __init__(self):
         self.queue = []
-        self.size = 0
-        
+        self.size = 0   
     def push(self, x: int) -> None:
         self.queue.append(x)
         self.size += 1 
@@ -15,8 +14,7 @@ class MyQueue:
             return handle
     def peek(self) -> int:
         if not self.empty():
-            return self.queue[0]
-        
+            return self.queue[0]  
     def empty(self) -> bool:
         if self.size == 0:
             return True
