@@ -18,7 +18,6 @@ public class Solution {
         if (n <= 1) return 1;
         return n * factorial(n - 1);
     }
-    
     private void shuffleArray(int[] array) {
         Random rnd = new Random();
         for (int i = array.length - 1; i > 0; i--) {
