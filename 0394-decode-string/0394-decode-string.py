@@ -1,7 +1,6 @@
 class Solution:
     def decodeString(self, s: str) -> str:
         def helper(i,strng,l):
-		
             if i >= len(s):
                 return ""		
             if s[i]=="]":
@@ -12,7 +11,6 @@ class Solution:
             if s[i].isnumeric():
                 return helper(i + 1,strng + s[i],l)		
             else:
-                return s[i] + helper(i+1,strng,l)
-				
+                return s[i] + helper(i+1,strng,l)			
         l = [None]
         return helper(0,"",l)
