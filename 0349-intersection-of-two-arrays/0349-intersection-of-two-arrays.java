@@ -9,7 +9,6 @@ public class Solution {
                 }
             }
         }
-
         int[] result = new int[uniqueElements.size()];
         int index = 0;
         for (int num : uniqueElements) {
