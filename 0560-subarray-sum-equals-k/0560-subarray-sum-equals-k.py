@@ -1,6 +1,5 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        
         map = {0 : 1}
         result = 0
         sum = 0
