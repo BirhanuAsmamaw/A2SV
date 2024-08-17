@@ -5,7 +5,6 @@ class Solution {
         for (int i = 0; i < nums.length; i++) {
             strNums[i] = String.valueOf(nums[i]);
         }
-        
         Arrays.sort(strNums, new Comparator<String>() {
             public int compare(String a, String b) {
                 String ab = a + b;
