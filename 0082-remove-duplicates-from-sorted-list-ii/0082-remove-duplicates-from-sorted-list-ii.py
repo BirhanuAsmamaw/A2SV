@@ -9,7 +9,6 @@ class Solution:
         
         final.next = head
         current = final
-        
         while current:
             if current.next and current.next.next and current.next.val == current.next.next.val:
                 temp = current.next.next
