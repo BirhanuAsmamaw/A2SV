@@ -21,6 +21,7 @@ class MyStack:
             return True
         return False
 
+
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
 # obj.push(x)
