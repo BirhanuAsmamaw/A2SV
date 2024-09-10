@@ -15,7 +15,6 @@ public class Solution {
                 L1.add(stri);
             }
         }
-        
         return new ArrayList<>(L2);
     }
 }
