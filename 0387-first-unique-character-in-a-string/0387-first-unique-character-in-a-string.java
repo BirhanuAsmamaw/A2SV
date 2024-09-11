@@ -13,8 +13,7 @@ public class Solution {
             if (dictionary.get(s.charAt(i)) == 1) {
                 return i;
             }
-        }
-        
+        } 
         return -1;
     }
 }
