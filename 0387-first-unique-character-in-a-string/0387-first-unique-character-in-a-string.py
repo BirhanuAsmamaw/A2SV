@@ -6,7 +6,6 @@ class Solution:
                 dictionary[i]+=1
             else:
                 dictionary[i]=1
-
         for i in dictionary:
             if dictionary[i]==1:
                 return s.index(i)
