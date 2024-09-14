@@ -1,6 +1,7 @@
 from typing import List
 
 class OrderedStream:
+    
     def __init__(self, n: int):
         self.stream = [None] * n
         self.ptr = 0
