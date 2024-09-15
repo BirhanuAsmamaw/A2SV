@@ -15,4 +15,5 @@ class Solution:
                     min_l = min(min_l, right - left)
                 cur_sum -= nums[left]
                 left += 1
+
         return min_l if min_l <= l else 0
