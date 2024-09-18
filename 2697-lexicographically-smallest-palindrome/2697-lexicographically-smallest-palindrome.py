@@ -1,5 +1,6 @@
 class Solution:
     def makeSmallestPalindrome(self, s: str) -> str:
+        
         s = list(s)
         n = len(s)
         for i in range(n // 2):
