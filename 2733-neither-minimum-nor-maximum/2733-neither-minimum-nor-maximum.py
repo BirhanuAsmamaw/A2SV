@@ -2,7 +2,7 @@ class Solution:
     def findNonMinOrMax(self, nums: List[int]) -> int:
         if len(nums) <= 2:
             return -1
-        
+            
         min_val = float('inf')
         max_val = float('-inf')
         
