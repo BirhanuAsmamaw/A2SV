@@ -5,7 +5,6 @@ class Solution:
             
         min_val = float('inf')
         max_val = float('-inf')
-        
         for num in nums:
             if num < min_val:
                 min_val = num
