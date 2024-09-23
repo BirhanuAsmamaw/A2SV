@@ -15,7 +15,6 @@ public class Solution {
         int end = 0;
         for (int i = 0; i < s.length(); i++) {
             end = Math.max(end, lastIndexMap.get(s.charAt(i)));
-
             if (i == end) {
                 result.add(end - start + 1);
                 start = end + 1;
