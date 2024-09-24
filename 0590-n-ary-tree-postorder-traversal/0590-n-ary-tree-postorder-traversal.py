@@ -14,6 +14,5 @@ class Solution:
                 for child in node.children:
                     traverse(child)
                 result.append(node.val)
-
         traverse(root)
         return result
