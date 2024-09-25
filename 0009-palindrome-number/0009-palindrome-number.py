@@ -15,8 +15,7 @@ class Solution:
             if arr[forWard] != arr[backWard]:
                 return False
             forWard  += 1
-            backWard -= 1
-            
+            backWard -= 1  
         return True
 
 # and an other possible answer for this question
