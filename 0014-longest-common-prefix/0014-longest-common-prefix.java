@@ -9,7 +9,6 @@ class Solution {
                 if (prefix.isEmpty()) return "";
             }
         }
-        
         return prefix;
     }
 }
