@@ -7,6 +7,7 @@ class Solution {
         checkClosing.put(')', '(');
         checkClosing.put(']', '[');
         checkClosing.put('}', '{');
+
         
         for (char i : s.toCharArray()) {
             if (checkClosing.containsKey(i)) {
