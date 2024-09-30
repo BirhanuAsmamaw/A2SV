@@ -16,6 +16,7 @@ class Solution {
                 result[p2] = total % 10;
             }
         }  
+        
         int index = 0;
         while (index < result.length && result[index] == 0) {
             index++;
