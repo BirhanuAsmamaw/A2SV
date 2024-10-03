@@ -5,7 +5,6 @@ class Solution {
         return result;
     }
 
-    
     private void backTracking(int start, int n, int k, List<Integer> combination, List<List<Integer>> result) {
         if (combination.size() == k) {
             result.add(new ArrayList<>(combination));
