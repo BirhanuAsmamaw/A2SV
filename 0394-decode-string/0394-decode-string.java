@@ -7,6 +7,7 @@ public class Solution {
         Stack<StringBuilder> stringStack = new Stack<>();
         StringBuilder currentString = new StringBuilder();
         int count = 0;
+        
 
         for (char ch : s.toCharArray()) {
             if (Character.isDigit(ch)) {
