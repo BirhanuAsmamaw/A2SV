@@ -6,6 +6,7 @@ public class Solution {
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i <= rowIndex; i++) {
             List<Integer> ladder = new ArrayList<>();
+            
             for (int j = 0; j <= i; j++) {
                 if (j == 0 || j == i) {
                     ladder.add(1);
