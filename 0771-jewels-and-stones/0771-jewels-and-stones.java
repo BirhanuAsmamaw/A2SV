@@ -7,7 +7,6 @@ public class Solution {
                 totJewel++;
             }
         }
-        
         return totJewel;
     }
 }
