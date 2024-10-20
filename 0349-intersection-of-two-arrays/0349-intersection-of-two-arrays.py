@@ -4,5 +4,4 @@ class Solution:
         for num in nums1:
             if num in nums2:
                 unique_elements.add(num)
-
         return list(unique_elements)
